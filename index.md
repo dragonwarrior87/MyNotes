@@ -15,7 +15,7 @@
 
 [License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
 
-## CodeBlock
+#### CodeBlock
 
 > test codeblock
 > write important notes here
@@ -26,4 +26,4 @@
 
 * list1
 * list2
-    * list2-1
+	* list2-1
