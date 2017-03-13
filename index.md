@@ -1,6 +1,6 @@
 - TOC   :wink:
 
-	* [ ] [Class Concepts](#Class)
+	* [x] [Class Concepts](#Class)
 	
 		2. [OOPS concepts](#OOPsConcept)
 		
