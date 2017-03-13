@@ -5,9 +5,9 @@
 ##### H5
 ###### H6
 
-[] checklist1
-[] checklist2
+- [ ] checklist1
+- [ ] checklist2
 
 * list1
 * list2
-** list2-1
+  * list2-1
