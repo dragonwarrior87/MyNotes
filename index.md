@@ -1,12 +1,12 @@
-- [ ] [Class Concepts](#Class)
-    * [ ] [OOPS concepts](#OOPsConcept)
-    * [ ] [Constructors](#Consturctors)
+- TOC
+  * [ ] [Class Concepts](#Class)
+  * [ ] [OOPS concepts](#OOPsConcept)
+  * [ ] [Constructors](#Consturctors)
     * [ ] [Types of Classes](#ClassTypes)
     * [ ] [Access Modifiers](#Access Modifiers)
-- [ ] [Codeblock](#codeblock)
+  * [ ] [Codeblock](#codeblock)
 
-###### License
-[License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
+#### [License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
 
 ### Consturctors
 * No return type associated with this
