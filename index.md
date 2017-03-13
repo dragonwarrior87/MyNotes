@@ -1,32 +1,27 @@
-- [ ] [Headers](#Headers)
+- [ ] [Class Concepts](#Class)
+	- [ ] [OOPS concepts](#OOPsConcept)
+	- [ ] [Constructors](#Consturctors)
+	- [ ] [Types of Classes](#ClassTypes)
+	- [ ] [Access Modifiers](#Access Modifiers)
 - [ ] [Codeblock](#codeblock)
-
-## Headers
-
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
 
 [License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
 
-#### CodeBlock
+### Consturctors
+* No return type associated with this
+* Shares same name as class
+* Constructor can be parameterised or blank
+	+ The constructor can be overloded based on the parameter type
+		'''java
+		public constructor(integer a) {}
 
-> test codeblock
-> write important notes here
-
-
-
-
-
-
-
-- [x] checklist1
-- [ ] checklist2
-
-* list1
-* list2
-	* list2-1
+		public constructor(string b) {}
+		'''
+	+ The constructor can be overloaded based on the Number of parameters
+		'''java
+		public constructor(integer a, string b){}
+		
+		public constructor(integer a){}
+		'''
+		
+		
