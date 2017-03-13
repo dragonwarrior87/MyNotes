@@ -14,11 +14,11 @@
   
   ```
   
-  [google](www.google.com)
+  [google](https://www.google.com)
   
   
   * google
   * bing
   
-  [] Points to be notes
-  [x] checked
+ - [ ] Points to be notes
+ - [x] checked
