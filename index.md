@@ -6,12 +6,12 @@
 ###### H6
 
 
+[License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
 
-> I’ve always been more interested
-> in the future than in the past.
 
 > test codeblock
 > write important notes here
+
 
 - [x] checklist1
 - [ ] checklist2
