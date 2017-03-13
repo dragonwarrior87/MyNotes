@@ -12,16 +12,16 @@
 * Shares same name as class
 * Constructor can be parameterised or blank
 	+ The constructor can be overloded based on the parameter type
-		'''java
+		```java
 		public constructor(integer a) {}
 
 		public constructor(string b) {}
-		'''
+		```
 	+ The constructor can be overloaded based on the Number of parameters
-		'''java
+		```java
 		public constructor(integer a, string b){}
 		
 		public constructor(integer a){}
-		'''
+		```
 		
 		
