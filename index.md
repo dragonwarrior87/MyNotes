@@ -1,9 +1,9 @@
 - TOC
 	* [ ] [Class Concepts](#Class)
-		2 [ ] [OOPS concepts](#OOPsConcept)
-		3 [ ] [Constructors](#Consturctors)
-		4 [ ] [Types of Classes](#ClassTypes)
-		5 [ ] [Access Modifiers](#Access Modifiers)
+		2. [ ] [OOPS concepts](#OOPsConcept)
+		3. [ ] [Constructors](#Consturctors)
+		4. [ ] [Types of Classes](#ClassTypes)
+		5. [ ] [Access Modifiers](#Access Modifiers)
 	* [ ] [Codeblock](#codeblock)
 
 #### [License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
