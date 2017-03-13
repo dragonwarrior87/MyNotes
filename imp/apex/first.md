@@ -9,6 +9,7 @@
   integet c= a+b;
   
   system.debug(c);
+  system.debug(a);
   }
   
   ```
@@ -18,3 +19,6 @@
   
   * google
   * bing
+  
+  [] Points to be notes
+  [x] checked
