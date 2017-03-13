@@ -1,4 +1,4 @@
-- TOC
+- TOC   :wink:
 
 	* [ ] [Class Concepts](#Class)
 	
