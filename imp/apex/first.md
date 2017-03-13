@@ -20,5 +20,5 @@
   * google
   * bing
   
- - [ ] Points to be notes
+ - [ ] Points to be noted
  - [x] checked
