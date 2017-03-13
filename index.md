@@ -3,12 +3,12 @@
 
 ## Headers
 
-		# H1
-		## H2
-		### H3
-		#### H4
-		##### H5
-		###### H6
+:# H1:
+## H2
+### H3
+#### H4
+##### H5
+###### H6
 
 
 [License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
