@@ -1,3 +1,9 @@
+[Headers](#Headers)
+[Codeblock](#codeblock)
+
+
+## Headers
+
 # H1
 ## H2
 ### H3
@@ -8,6 +14,7 @@
 
 [License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
 
+## CodeBlock
 
 > test codeblock
 > write important notes here
