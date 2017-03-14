@@ -1,6 +1,6 @@
 - TOC   :wink:
 
-	* [x] [Class Concepts](#Class)
+	- [x] [Class Concepts](#Class)
 	
 		2. [OOPS concepts](#OOPsConcept)
 		
@@ -10,7 +10,8 @@
 		
 		5. [Access Modifiers](#Access Modifiers)
 		
-	* [ ] [Codeblock](#codeblock)
+	- [ ] [Codeblock](#codeblock)
+	- [ ] [Triggers](BasicTigger)
 
 #### [License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
 
