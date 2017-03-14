@@ -1,6 +1,6 @@
 - TOC  
 
-	- [Class Concepts](Classconcept)
+	- [Class Concepts](classconcept)
 			
 	- [Codeblock](#codeblock)
 	
