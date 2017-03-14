@@ -1,4 +1,4 @@
-# Globle Class for using Static Variables and Methods
+## Globle Class for using Static Variables and Methods
 
 ``` java
 public class globle_cls { 
@@ -23,9 +23,13 @@ public class globle_cls {
   }
    
  ```
-# Basic Trigger Code
+## Basic Trigger Code
  ``` java
-   trigger T_basic_prc on Account(before insert,after insert,before update,after update,before delete,after delete,after undelete) {
+trigger T_basic_prc on Account(
+                                before insert,after insert,
+                                before update,after update,
+                                before delete,after delete,
+                                             after undelete) {
 
 system.debug('Trigger started');
     
@@ -68,7 +72,7 @@ system.debug('Trigger started');
 }
 
 ```
-# Execution of Trigger code
+## Execution of Trigger code
 ``` java
 account[] al= new account[]{};
 for(integer i=0; i < 100;i++){
