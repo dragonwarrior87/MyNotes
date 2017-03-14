@@ -22,9 +22,9 @@ public class globle_cls {
      
   }
    
-   ```
-    # Basic Trigger Code
-   ``` java
+ ```
+# Basic Trigger Code
+ ``` java
    trigger T_basic_prc on Account(before insert,after insert,before update,after update,before delete,after delete,after undelete) {
 
 system.debug('Trigger started');
