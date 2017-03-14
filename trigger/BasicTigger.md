@@ -1,27 +1,27 @@
-## Globle Class for using Static Variables and Methods
+## Global Class for using Static Variables and Methods
 
 ``` java
-    public class globle_cls { 
+public class global_cls { 
 
-        public globle_cls(){
-            inst_cnt=0;
-        }
-        //    public static list<string> event = new list<string>();
-        
-        public static string[] event = new string[]{};
-        public static integer count=0;
-        public integer inst_cnt;
-        
-        public static void limt_methd(){
+    public global_cls(){
+        inst_cnt=0;
+    }
+    //    public static list<string> event = new list<string>();
 
-        system.debug('No Of DML Statements: '+Limits.getDMLStatements());
-        system.debug('No Of Query Rows: '+Limits.getQueryRows());
-        system.debug('No Of DML Rows: '+Limits.getDMLRows());
-        system.debug('No Of SOQL Statements: '+Limits.getQueries());
+    public static string[] event = new string[]{};
+    public static integer count=0;
+    public integer inst_cnt;
 
-        }
+    public static void limt_methd(){
+
+    system.debug('No Of DML Statements: '+Limits.getDMLStatements());
+    system.debug('No Of Query Rows: '+Limits.getQueryRows());
+    system.debug('No Of DML Rows: '+Limits.getDMLRows());
+    system.debug('No Of SOQL Statements: '+Limits.getQueries());
 
     }
+
+}
    
  ```
 ## Basic Trigger Code
@@ -38,19 +38,19 @@ trigger T_basic_prc on Account(
         system.debug('ISBEFORE trigger testing');
         if(trigger.isinsert){
             system.debug('ISINSERT trigger testing');
-            globle_cls.limt_methd();
+            global_cls.limt_methd();
         }
         if(trigger.isupdate){
             system.debug('ISUPDATE trigger testing');
-            globle_cls.limt_methd();
+            global_cls.limt_methd();
         }
         if(trigger.isdelete){
             system.debug('ISDELETE trigger testing');
-            globle_cls.limt_methd();
+            global_cls.limt_methd();
         }
         if(trigger.isUndelete){
             system.debug('UNISDELETE trigger testing');
-            globle_cls.limt_methd();
+            global_cls.limt_methd();
         }
     }
     
@@ -58,19 +58,19 @@ trigger T_basic_prc on Account(
         system.debug('ISAFTER trigger testing');
         if(trigger.isinsert){
             system.debug('ISINSERT trigger testing');
-            globle_cls.limt_methd();
+            global_cls.limt_methd();
         }
         if(trigger.isupdate){
             system.debug('ISUPDATE trigger testing');
-            globle_cls.limt_methd();
+            global_cls.limt_methd();
         }
         if(trigger.isdelete){
             system.debug('ISDELETE trigger testing');
-            globle_cls.limt_methd();
+            global_cls.limt_methd();
         }
         if(trigger.isUndelete){
             system.debug('UNISDELETE trigger testing');
-            globle_cls.limt_methd();
+            global_cls.limt_methd();
         }
     }  
     
@@ -78,13 +78,28 @@ trigger T_basic_prc on Account(
 
 ```
 ## Execution of Trigger code
+> Run this code in 'Execute Anonymous' Window
+> This Scenario is for insert operation 
+
+
 ``` java
-    account[] al= new account[]{};
-    for(integer i=0; i < 100;i++){
-        account a = new account(name='acct_tgr'+i, site='Trg_site');
-        al.add(a);
-    }
-    insert al;
+
+for(integer i=0; i < 100;i++){
+    account a = new account(name='acct_tgr'+i, site='Trg_site');
+    insert a;
+}
+
+```
+
+> Bulikfed code for the same
+
+``` java
+account[] al= new account[]{};
+for(integer i=0; i < 100;i++){
+    account a = new account(name='acct_tgr'+i, site='Trg_site');
+    al.add(a);
+}
+insert al;
 ```
 
 
