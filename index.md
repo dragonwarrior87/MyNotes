@@ -4,7 +4,7 @@
 			
 	- [Codeblock](#codeblock)
 	
-	- [Triggers](BasicTigger)
+	- [Triggers](tigger)
 
 #### [License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
 
