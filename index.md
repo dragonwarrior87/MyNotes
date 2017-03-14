@@ -1,17 +1,18 @@
 - TOC   :wink:
 
-	- [x] [Class Concepts](#Class)
+	- [Class Concepts](#Class)
 	
-		2. [OOPS concepts](#OOPsConcept)
+		- [OOPS concepts](#OOPsConcept)
 		
-		3. [Constructors](#Consturctors)
+		- [Constructors](#Consturctors)
 		
-		4. [Types of Classes](#ClassTypes)
+		- [Types of Classes](#ClassTypes)
 		
-		5. [Access Modifiers](#Access Modifiers)
+		- [Access Modifiers](#Access Modifiers)
 		
-	- [ ] [Codeblock](#codeblock)
-	- [ ] [Triggers](BasicTigger)
+	- [Codeblock](#codeblock)
+	
+	- [Triggers](BasicTigger)
 
 #### [License](https://raw.githubusercontent.com/dragonwarrior87/MyNotes/gh-pages/LICENSE)
 
