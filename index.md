@@ -1,15 +1,7 @@
 - TOC  
 
-	- [Class Concepts](#Class)
-	
-		- [OOPS concepts](#OOPsConcept)
-		
-		- [Constructors](#Consturctors)
-		
-		- [Types of Classes](#ClassTypes)
-		
-		- [Access Modifiers](#Access Modifiers)
-		
+	- [Class Concepts](Classconcept)
+			
 	- [Codeblock](#codeblock)
 	
 	- [Triggers](BasicTigger)
