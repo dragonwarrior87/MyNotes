@@ -1,6 +1,6 @@
 - TOC  
 
-	- [Class Concepts](classconcept)
+	- [Class](apexclass/concept)
 		
 	- [Triggers](trigger)
 
