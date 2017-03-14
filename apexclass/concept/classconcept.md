@@ -5,7 +5,7 @@
 - [Access Modifiers](#Access Modifiers)
 
 ### Consturctors
-  :  The special method which instantiates the class.
+	The special method which instantiates the class.
 
 * No return type associated with this
 * Shares same name as class
@@ -22,3 +22,17 @@
 		
 		public constructor(integer a){}
 		```
+### ClassTypes
+	* VIRTUAL
+	* ABSTRACT
+
+### Access Modifiers
+	* private
+		+ default Access  modifier
+		+ can only be used within the inner class
+	* protected 
+		+ variables/methods marked as protected can be shared among class via inheritence
+	* public
+		+ These variables and methods will be available within namespace
+	* global
+		+ These are available for the external application (which are driven by SOAP/REST api)
