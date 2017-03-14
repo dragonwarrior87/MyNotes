@@ -1,4 +1,4 @@
-# Globle Class for using Stavi Variables and Methods
+# Globle Class for using Static Variables and Methods
 
 ``` java
 public class globle_cls { 
