@@ -1,1 +1,1 @@
-- [Class concepts](apexclass/concept/classconcept.md)
+- [Class concepts](concept/classconcept.md)
