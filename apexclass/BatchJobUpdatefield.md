@@ -24,3 +24,13 @@ global class updateAccountFields implements DataBase.Batchable<sObject>{
      global void finish(Database.BatchableContext bc){
      }
 }```
+
+#### Execute from anonymous window
+```java
+String q ='Select Industry from Account where id=\'00128000008Eusm\'';
+System.debug('Query results'+q);
+String f ='Industry';
+String v = 'Banking';
+String e = 'Account';
+Id batchId = Database.executeBatch(new updateAccountFields(q,e,f,v),5);
+```
