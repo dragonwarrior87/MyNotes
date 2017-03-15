@@ -12,4 +12,5 @@ database.emptyRecycleBin(adl);
 ```
 
 > What is the implication of isDeleted=true  in the where clause.
+
 > what namespace is this related to.
