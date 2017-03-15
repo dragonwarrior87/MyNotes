@@ -2,5 +2,5 @@
 
 
 - [Code Samples]
-  - [BatchApex For field Update] (codesamples/BatchJobUpdatefield.md)
+  - [BatchApex For field Update](codesamples/BatchJobUpdatefield.md)
   - [Delete recyclebin via Apex](codesamples/EmptyRcdRcycleBin.md)
