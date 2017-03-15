@@ -2,6 +2,8 @@
 
 	- [Class](apexclass)		
 	- [Triggers](trigger)
+	- [Tricky Question](TrickyQns)
+	
 	
 	
 	
