@@ -8,7 +8,7 @@ trigger TestClassExecution on Patient__c (after insert,after update,after delete
 }
 ```
 
-##### Output:
+
 
 
 ##### Test Class
@@ -27,6 +27,8 @@ trigger TestClassExecution on Patient__c (after insert,after update,after delete
     }
 }
 ```
+
+##### Output:
 
 
 ##### REASON:
