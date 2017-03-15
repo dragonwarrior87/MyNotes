@@ -1,5 +1,5 @@
-## Find the debugs that will be getting after running below testclass
-### Trigger:
+#### What is Output from debugs logs that will be getting after running below testclass
+##### Trigger:
 ```jave
 trigger TestClassExecution on Patient__c (after insert,after update,after delete,after undelete) {
     System.debug('####after insert,after update,after delete,after undelete'+'trigger.old'+trigger.old == null);
@@ -7,7 +7,7 @@ trigger TestClassExecution on Patient__c (after insert,after update,after delete
  }
 }
 ```
-### Test Class
+##### Test Class
 ```Java
 @isTest public Class TestExecuteTests {
     static TestMethod void TestAllEvents(){
@@ -23,3 +23,8 @@ trigger TestClassExecution on Patient__c (after insert,after update,after delete
     }
 }
 ```
+
+
+##### REASON:
+> ?
+
