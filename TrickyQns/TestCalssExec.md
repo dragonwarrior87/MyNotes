@@ -1,4 +1,4 @@
-## Find the output after running belowtestclass
+## Find the debugs that will be getting after running below testclass
 ### Trigger:
 ```jave
 trigger TestClassExecution on Patient__c (after insert,after update,after delete,after undelete) {
