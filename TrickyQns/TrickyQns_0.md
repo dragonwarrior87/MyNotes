@@ -1,10 +1,9 @@
-#### What is Output from debugs logs that will be getting after running below testclass
+#### Determine the Output from debugs logs that we will be getting after executing below testclass
 ##### Trigger:
-```jave
+```java
 trigger TestClassExecution on Patient__c (after insert,after update,after delete,after undelete) {
     System.debug('####after insert,after update,after delete,after undelete'+'trigger.old'+trigger.old == null);
     System.debug('####after insert,after update,after delete,after undelete'+'trigger.oldMAp'+trigger.old == null);
- }
 }
 ```
 ##### Test Class
