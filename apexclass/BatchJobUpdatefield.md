@@ -35,3 +35,4 @@ String v = 'Banking';
 String e = 'Account';
 Id batchId = Database.executeBatch(new updateAccountFields(q,e,f,v),5);
 ```
+*In the above code at line 19 we have used s.put(field,value), explain how it allows put method..?*
