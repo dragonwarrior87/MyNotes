@@ -1,5 +1,5 @@
-#H1 Simple example to understand Access modifiers through functions
-
+## Simple example to understand Access modifiers through functions
+```Java
 public abstract class AbstractBaseClass 
 {
      public void publicMethod() 
@@ -28,3 +28,5 @@ public class CallingClass
          instance.publicMethod();
      }
 }
+```
+*Try this example to understand access modifiers*
