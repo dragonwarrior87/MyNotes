@@ -15,11 +15,11 @@ Season e = Season.WINTER;
 }
 
 ```
-#values() --This method returns the values of the Enum as a list of the same Enum type.
+#Values() --This method returns the values of the Enum as a list of the same Enum type.
 	Each Enum value has the following methods that take no arguments.
 
-	name() -- Returns the name of the Enum item as a String.
-	ordinal() -- Returns the position of the item, as an Integer, in the list of Enum values starting with zero.
+	Name() -- Returns the name of the Enum item as a String.
+	Ordinal() -- Returns the position of the item, as an Integer, in the list of Enum values starting with zero.
 
 #Example:
 ```java
