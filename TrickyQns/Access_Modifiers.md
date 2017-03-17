@@ -40,6 +40,13 @@ public class CallingClass
 *Try this example to understand access modifiers*
 
 #### Output:
-* USER_DEBUG [5]|DEBUG|Public method, calling protected method
-* USER_DEBUG [11]|DEBUG|In base class protected method
-* USER_DEBUG [7]|DEBUG|Protected method call worked
+* Public method, calling protected method
+* In subclass protected method
+* Protected method call worked
+
+*When you disable the overriding you will get the below output*
+
+* Public method, calling protected method
+* In base class protected method
+* Protected method call worked
+
