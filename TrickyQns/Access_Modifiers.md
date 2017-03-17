@@ -1,6 +1,6 @@
 ## Simple example to understand Access modifiers through functions
 
-##Class 1: Base class has protected method
+#### Class 1: Base class has protected method
 ```Java
 public abstract class AbstractBaseClass 
 {
@@ -16,8 +16,7 @@ public abstract class AbstractBaseClass
     }
 }
 ```
-##Class 2: Derived class overriding the protected method
-
+#### Class 2: Derived class overriding the protected method
 ```java
 public class Subclass extends AbstractBaseClass 
 {
@@ -27,8 +26,7 @@ public class Subclass extends AbstractBaseClass
      }
 }
 ```
-##Class 3: Another class for calling the above
-
+#### Class 3: Another class for calling the above
 ```java
 public class CallingClass 
 {
@@ -41,7 +39,7 @@ public class CallingClass
 ```
 *Try this example to understand access modifiers*
 
-##Output:
+#### Output:
 * USER_DEBUG [5]|DEBUG|Public method, calling protected method
 * USER_DEBUG [11]|DEBUG|In base class protected method
 * USER_DEBUG [7]|DEBUG|Protected method call worked
