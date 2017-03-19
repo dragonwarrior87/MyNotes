@@ -26,4 +26,7 @@ Season e = Season.WINTER;
 	system.debug('The name of the Enum item is'+Season.WINTER.name());
 	system.debug('The value of the Enum item is'+Season.WINTER.ordinal());
 ```
+
+## for(season ss:season.values()){},above giving below error
+### "Loop must iterate over a collection type" please help
 	
