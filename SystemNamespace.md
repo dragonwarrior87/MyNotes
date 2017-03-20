@@ -5,17 +5,17 @@ Ex:
   Address addr = myAccount.BillingAddress;
   String acctCity = addr.City;
   ```
- #### Answers 
+#### Answers 
  Answers is a feature of the Community application that enables users to ask questions and have community members post replies.
  Community members can then vote on the helpfulness of each reply, and the person who asked the question can mark one reply as 
  the best answer.
- #### ApexPages
+#### ApexPages
  * Add and check for messages associated with the current page.
  * To reference the current page.
- ### Approval
+#### Approval
  * Processing approval requests
  * Setting approval-process locks and unlocks on records using lock and unock methods and are treated as DML.
- ### Blob
+#### Blob
  It is a primitive data type
 * Pdf file can be created
 * Can be converted to String
