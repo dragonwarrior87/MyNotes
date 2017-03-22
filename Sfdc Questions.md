@@ -1,4 +1,4 @@
-####Important Questions
+#### Important Questions
 
 1. Difference between ActionSupport and ActionFunction
 2. Std/custom Controller and extension class: Can we refer any apex class in extension accept current controller class.
